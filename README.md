@@ -1,4 +1,4 @@
-# Deploy to Firebase
+# Firebase CLI Deployment
 
 A GitHub Action to deploy firebase hosting and functions together.
 
@@ -24,7 +24,7 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy to Firebase Hosting
+    - name: Deploy to Firebase
       uses: doonstore/firebase-deploy@v1
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
@@ -42,7 +42,7 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy to Firebase Hosting
+    - name: Deploy to Firebase
       uses: doonstore/firebase-deploy@v1
       with:
         params: --only hosting

@@ -1,4 +1,4 @@
-name: Deploy To Firebase
+name: Firebase CLI Deployment
 author: Lallu Anthoor <lalluanthoor@gmail.com>
 description: A GitHub Action to deploy to Firebase
 inputs:
